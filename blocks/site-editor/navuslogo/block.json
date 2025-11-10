@@ -1,0 +1,27 @@
+{
+    "name": "navuslogo",
+    "title": "Navus Logo",
+    "description": "Block to Display Navus Logo",
+    "category": "site-builder",
+    "icon": "art",
+    "keywords": ["custom", "menu"],
+    "supports": {
+        "align": ["wide", "full"],
+        "anchor": true,
+        "customClassName": true,
+        "jsx": true
+    },
+    "mode": "preview",
+    "render_template": "template.php",
+    "enqueue_style": "style.css",
+    "context": ["site_editor"],
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "title": "Navus Logo Preview",
+                "subtitle": "Default Design for Navus Logo"
+            }
+        }
+    }
+}

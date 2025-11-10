@@ -1,0 +1,47 @@
+{
+    "name": "category-posts",
+    "title": "Category Posts",
+    "description": "Block to display posts from a category",
+    "category": "site-builder",
+    "icon": "admin-post",
+    "keywords": ["custom", "menu"],
+    "supports": {
+        "align": ["wide", "full"],
+        "anchor": true,
+        "customClassName": true,
+        "jsx": true
+    },
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "template.php"
+    },
+    "external_assets": {
+        "css": {
+            "swiper-css": {
+                "src": "{ASSETS_URI}/css/plugins/swiper/style.css",
+                "deps": [],
+                "version": "1.0.0"
+            }
+        },
+        "js": {
+            "swiper-lib": {
+                "src": "{ASSETS_URI}/js/plugins/swiper/script.js",
+                "deps": [],
+                "version": "1.0.0"
+            }
+        }
+    },
+    "enqueue_script": "script.js",
+    "enqueue_style": "style.css",
+    "context": ["front_page"],
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "title": "Category Posts Preview",
+                "subtitle": "Default Design for Category Posts",
+                "preview_image": "preview.png"
+            }
+        }
+    }
+}

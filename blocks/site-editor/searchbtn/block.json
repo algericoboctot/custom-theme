@@ -1,0 +1,28 @@
+{
+    "name": "searchbtn",
+    "title": "Search Button",
+    "description": "Block to display Search Button",
+    "category": "site-builder",
+    "icon": "search",
+    "keywords": ["custom", "menu"],
+    "supports": {
+        "align": ["wide", "full"],
+        "anchor": true,
+        "customClassName": true,
+        "jsx": true
+    },
+    "mode": "preview",
+    "render_template": "template.php",
+    "enqueue_style": "style.css",
+    "enqueue_script": "script.js",
+    "context": ["site_editor"],
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "title": "Search Button Preview",
+                "subtitle": "Default Design for Search Button"
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "statnumbers",
+    "title": "Stat Numbers",
+    "description": "Block to display Stat Numbers",
+    "category": "global-blocks",
+    "icon": "chart-area",
+    "keywords": ["stats", "numbers", "counters"],
+    "supports": {
+        "align": ["wide", "full"],
+        "anchor": true,
+        "customClassName": true,
+        "jsx": true
+    },
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "template.php"
+    },
+    "enqueue_script": "script.js",
+    "enqueue_style": "style.css",
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "title": "Stat Numbers Preview", 
+                "subtitle": "Default Design for Stat Numbers",
+                "preview_image": "preview.jpg"
+            }
+        }
+    }
+}

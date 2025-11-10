@@ -1,0 +1,18 @@
+.site-logo {
+    display: block;
+}
+
+.site-logo span {
+    display: block;
+}
+
+.site-logo__text {
+    font-weight: 700;
+    font-size: clamp(1.5rem, 0.895vw + 0.926rem, 2rem);
+}
+
+.site-logo__image {
+    width: 120px;
+    height: 80px;
+    position: relative;
+}

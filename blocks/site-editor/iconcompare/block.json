@@ -1,0 +1,27 @@
+{
+    "name": "iconcompare",
+    "title": "Icon Compare",
+    "description": "Block to display Icon Compare",
+    "category": "site-builder",
+    "icon": "admin-settings",
+    "keywords": ["custom", "icon","compare"],
+    "supports": {
+        "align": ["wide", "full"],
+        "anchor": true,
+        "customClassName": true,
+        "jsx": true
+    },
+    "mode": "preview",
+    "render_template": "template.php",
+    "enqueue_style": "style.css",
+    "context": ["site_editor"],
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "title": "Header Icons Preview",
+                "subtitle": "Default Design for Icon Compare"
+            }
+        }
+    }
+}

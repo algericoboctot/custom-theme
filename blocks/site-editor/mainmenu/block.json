@@ -1,0 +1,28 @@
+{
+    "name": "mainmenu",
+    "title": "Main Menu",
+    "description": "Block to display Main Menu",
+    "category": "site-builder",
+    "icon": "menu",
+    "keywords": ["custom", "menu"],
+    "supports": {
+        "align": ["wide", "full"],
+        "anchor": true,
+        "customClassName": true,
+        "jsx": true
+    },
+    "mode": "preview",
+    "render_template": "template.php",
+    "enqueue_style": "style.css",
+    "enqueue_script": "script.js",
+    "context": ["site_editor"],
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "title": "Main Menu Preview",
+                "subtitle": "Default Design for Main Menu"
+            }
+        }
+    }
+}

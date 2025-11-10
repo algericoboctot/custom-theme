@@ -1,0 +1,27 @@
+{
+    "name": "copyrights",
+    "title": "Copyrights",
+    "description": "Block to Display Copyrights",
+    "category": "site-builder",
+    "icon": "products",
+    "keywords": ["custom", "menu"],
+    "supports": {
+        "align": ["wide", "full"],
+        "anchor": true,
+        "customClassName": true,
+        "jsx": true
+    },
+    "mode": "preview",
+    "render_template": "template.php",
+    "enqueue_style": "style.css",
+    "context": ["site_editor"],
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "title": "Copyrights Preview",
+                "subtitle": "Default Design for Copyrights"
+            }
+        }
+    }
+}

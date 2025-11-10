@@ -1,0 +1,25 @@
+{
+    "ID": 147,
+    "key": "group_687f521356e18",
+    "title": "Options: Login Logo",
+    "fields": [],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "login-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "_valid": true
+}

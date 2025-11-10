@@ -1,0 +1,25 @@
+{
+    "ID": 102,
+    "key": "group_footermenu_menu_selector",
+    "title": "Block: Footer Menu",
+    "fields": [],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/footermenu"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "_valid": true
+}

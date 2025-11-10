@@ -1,0 +1,25 @@
+{
+    "ID": 118,
+    "key": "group_68810014bb38c",
+    "title": "Block: Hero Banner",
+    "fields": [],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/hero-banner"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "_valid": true
+}

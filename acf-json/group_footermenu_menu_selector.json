@@ -1,0 +1,55 @@
+{
+    "key": "group_footermenu_menu_selector",
+    "title": "Block: Footer Menu",
+    "fields": [
+        {
+            "key": "field_footermenu_menu_selector",
+            "label": "Select Menu",
+            "name": "selected_menu",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "Choose which menu to display in this footer menu block. You can add multiple footer menu blocks to show different menus in the footer.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "14": "Footer Menu",
+                "13": "Header Menu",
+                "location_main_menu": "Navigation items for Header menu. Lietuviškai (Theme Location)"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 1,
+            "ui": 1,
+            "ajax": 0,
+            "placeholder": "Select a menu...",
+            "allow_in_bindings": 0,
+            "create_options": 0,
+            "save_options": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/footermenu"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1762329121
+}

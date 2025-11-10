@@ -1,0 +1,42 @@
+.header__compare {
+    position: relative;
+}
+
+.header__compare-btn {
+    position: relative;
+    width: 26px;
+    height: 26px;
+    svg {
+        path {
+            transition: fill 0.2s ease;
+        }
+    }
+}
+
+.header__compare-btn:hover {
+    svg {
+        path {
+            fill: var(--wp--preset--color--accent-1);
+        }
+    }
+    .header__compare-count {
+        background-color: var(--wp--preset--color--accent-1);
+        color: var(--wp--preset--color--accent-2);
+    }
+}
+
+.header__compare-count {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: var(--wp--preset--color--accent-2);
+    color: var(--wp--preset--color--accent-1);
+    padding: 1px 7px;
+    border-radius: 50%;
+    min-width: 18px;
+    text-align: center;
+    line-height: 1.2;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+}

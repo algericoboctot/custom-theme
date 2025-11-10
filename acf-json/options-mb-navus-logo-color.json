@@ -1,0 +1,25 @@
+{
+    "ID": 152,
+    "key": "group_6888a4c377a51",
+    "title": "Options: MB Navus Logo Color",
+    "fields": [],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "_valid": true
+}

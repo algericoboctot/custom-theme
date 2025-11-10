@@ -1,0 +1,79 @@
+/* Header Icons Block Styles */
+.header-icons-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+}
+.header-description {
+    text-align: center;
+}
+
+.header-description p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--wp--preset--color--accent-2);
+    margin: 0;
+}
+
+.header-icons-grid {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+.header-icon-item {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.header-icon-item:hover {
+    transform: translateY(-5px);
+}
+
+.header-icon-link {
+    display: block;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.header-icon-link:hover {
+    opacity: 0.8;
+}
+
+.header-icon-image {
+    max-width: 100%;
+    height: auto;
+    min-height: 20px; /* Prevent zero height */
+    object-fit: contain; /* Maintain aspect ratio */
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+/* Handle images with zero height */
+.header-icon-image[height="0"],
+.header-icon-image[height="0px"] {
+    height: auto !important;
+    min-height: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header-icons-grid {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        gap: 1rem;
+    }
+    
+    .header-description p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-icons-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}

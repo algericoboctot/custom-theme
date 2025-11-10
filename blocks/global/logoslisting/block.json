@@ -1,0 +1,46 @@
+{
+    "name": "logoslisting",
+    "title": "Logos Listing",
+    "description": "Block to display Logos Listing",
+    "category": "global-blocks",
+    "icon": "format-gallery",
+    "keywords": ["logos", "listing"],
+    "supports": {
+        "align": ["wide", "full"],
+        "anchor": true,
+        "customClassName": true,
+        "jsx": true
+    },
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "template.php"
+    },
+    "external_assets": {
+        "css": {
+            "swiper-css": {
+                "src": "{ASSETS_URI}/css/plugins/swiper/style.css",
+                "deps": [],
+                "version": "1.0.0"
+            }
+        },
+        "js": {
+            "swiper-js": {
+                "src": "{ASSETS_URI}/js/plugins/swiper/script.js",
+                "deps": [],
+                "version": "1.0.0"
+            }
+        }
+    },
+    "enqueue_script": "script.js",
+    "enqueue_style": "style.css",
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "title": "Logos Listing Preview", 
+                "subtitle": "Default Design for Logos Listing",
+                "preview_image": "preview.jpg"
+            }
+        }
+    }
+}

@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    flex-direction: column; /* used to affix footer to bottom of page */
+    min-height: 100vh;
+}
+
+
+html {
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+
+/* Removes default webkit form styling */
+input:not([type="radio"]):not([type="checkbox"]),
+button,
+textarea {
+    -webkit-appearance: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none; /* Removes blue border on focus */
+    border: 1px solid var(--wp--preset--color--accent-4); /* TODO: Please add a branded border for focus */
+}
+
+/* Removes inconsistent padding from Firefox buttons */
+button::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border: none;
+    padding:0;
+}
+
+@-ms-viewport { width: device-width; }
+
+.wp-block-button {
+    .wp-block-button__link {
+        font-weight: 600;
+        transition: background-color .25s ease-in-out;
+        &:hover {
+            background-color: var(--wp--preset--color--base);
+        }
+    }
+}
+
+/*
+*   SCROLL DESIGN
+*/
+
+*:before, *:after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.wp-block-button .wp-block-button__link {
+    background-color: var(--wp--preset--color--accent-1);
+    border-radius: 0px;
+    color: var(--wp--preset--color--accent-2);
+}
+*::-webkit-scrollbar {
+    width: 10px;
+}
+*::-webkit-scrollbar-track {
+    background-color: var(--wp--preset--color--accent-2);
+}
+*::-webkit-scrollbar-thumb {
+    background-color: var(--wp--preset--color--accent-1);
+    border-radius: 6px;
+}
+
+.social-icons.wp-block-social-links {
+    .wp-social-link svg {
+       height: 24px !important;
+       width: 24px !important;
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--wp--preset--color--accent-2);
+    color: var(--wp--preset--color--accent-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .25s ease-in-out, color .25s ease-in-out;
+    &:hover {
+        background-color: var(--wp--preset--color--accent-1);
+        color: var(--wp--preset--color--accent-2);
+    }
+}
+
+.swiper-button-prev:after {
+    transform: translateX(-2px);
+}
+
+.swiper-button-next:after {
+    transform: translateX(2px);
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 1.5rem;
+}
+
+:root :where(.is-layout-flow) > div,
+:root :where(.entry-content) {
+    margin-block-start: 0;
+}
+
+/*
+    (phones landscape / small tablets)
+    * Mobile needs to be reviewed and responsive from 400px and higher
+*/
+@media ( min-width: 640px) {
+
+}
+
+/*
+    768px (tablets)
+*/
+@media( min-width: 768px) {
+
+}
+
+/*
+    1024px (small laptops)
+*/
+@media( min-width: 1024px) {
+
+}
+
+/*
+    1280px (desktop)
+*/
+@media( min-width: 1280px) {
+
+}
+
+/*
+    1536px (wide desktop)
+*/
+@media( min-width: 1536px) {
+
+}
+
+

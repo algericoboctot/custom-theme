@@ -1,0 +1,28 @@
+{
+    "name": "topmenu",
+    "title": "Top Menu",
+    "description": "Block to display Top Menu",
+    "category": "site-builder",
+    "icon": "menu-alt",
+    "keywords": ["custom", "menu"],
+    "supports": {
+        "align": ["wide", "full"],
+        "anchor": true,
+        "customClassName": true,
+        "jsx": true
+    },
+    "mode": "preview",
+    "render_template": "template.php",
+    "enqueue_style": "style.css",
+    "enqueue_script": "script.js",
+    "context": ["site_editor"],
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "title": "Top Menu Preview",
+                "subtitle": "Default Design for Top Menu"
+            }
+        }
+    }
+}

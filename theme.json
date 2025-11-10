@@ -1,0 +1,547 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"palette": [
+				{
+					"color": "#000000",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#f2f5f7",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#e71332",
+					"name": "Accent 1",
+					"slug": "accent-1"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Accent 2",
+					"slug": "accent-2"
+				},
+				{
+					"color": "#f6f6f6",
+					"name": "Accent 3",
+					"slug": "accent-3"
+				},
+				{
+					"color": "#3e3e3e",
+					"name": "Accent 4",
+					"slug": "accent-4"
+				},
+				{
+					"color": "#949494",
+					"name": "Accent 5",
+					"slug": "accent-5"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-100-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-900-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-100-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-300-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-500-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-700-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-900-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "Roboto, sans-serif",
+					"name": "Roboto",
+					"slug": "roboto"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-100-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-200-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-800-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-900-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-100-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-200-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-300-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-500-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-600-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-700-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-800-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Condensed\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/roboto-condensed/roboto-condensed-900-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Roboto Condensed\", sans-serif",
+					"name": "Roboto Condensed",
+					"slug": "roboto-condensed"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Roboto Slab\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/roboto-slab/roboto-slab-100-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Slab\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/roboto-slab/roboto-slab-200-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Slab\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/roboto-slab/roboto-slab-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Slab\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/roboto-slab/roboto-slab-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Slab\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/roboto-slab/roboto-slab-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Slab\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/roboto-slab/roboto-slab-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Slab\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/roboto-slab/roboto-slab-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Slab\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/roboto-slab/roboto-slab-800-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Roboto Slab\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/roboto-slab/roboto-slab-900-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Roboto Slab\", serif",
+					"name": "Roboto Slab",
+					"slug": "roboto-slab"
+				}
+			],
+			"fontSizes": [
+				{
+					"name": "Small",
+					"slug": "small",
+					"size": "15px"
+				},
+				{
+					"name": "Medium",
+					"slug": "medium",
+					"size": "20px"
+				},
+				{
+					"name": "Large",
+					"slug": "large",
+					"size": "36px"
+				},
+				{
+					"name": "Extra Large",
+					"slug": "x-large",
+					"size": "42px"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"border": {
+					"radius": "0px"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--accent-1)",
+					"text": "var(--wp--preset--color--accent-2)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--accent-2)"
+						}
+					}
+				}
+			},
+			"core/buttons": {
+				"border": {
+					"radius": "0px"
+				}
+			}
+		},
+		"color": {
+			"background": "var(--wp--preset--color--white)",
+			"text": "var(--wp--preset--color--base)"
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--accent-1)",
+					"text": "var(--wp--preset--color--contrast)"
+				}
+			},
+			"caption": {
+				"color": {
+					"text": "var(--wp--preset--color--contrast)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
+					"fontSize": "15px",
+					"fontStyle": "normal",
+					"fontWeight": "400"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "2.81rem"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "2.5rem"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "2.19rem"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "1.88rem"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "1.56rem"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "1.25rem"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--base)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
+					"fontStyle": "normal",
+					"fontWeight": "700",
+					"lineHeight": "1.1"
+				}
+			},
+			"link": {
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--accent-1)"
+					}
+				},
+				"color": {
+					"text": "var(--wp--preset--color--base)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontStyle": "normal",
+					"fontWeight": "400",
+					"textDecoration": "none"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--roboto)",
+			"fontSize": "var(--wp--preset--font-size--small)",
+			"fontStyle": "normal",
+			"fontWeight": "400"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "header",
+			"name": "header-ins-detailed",
+			"title": "Header Institution Detailed"
+		},
+		{
+			"area": "header",
+			"name": "header-ins-simple",
+			"title": "Header Institution Simple"
+		},
+		{
+			"area": "header",
+			"name": "header-e-commerce",
+			"title": "Header E-Commerce"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		}
+	],
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.8/theme.json"
+}

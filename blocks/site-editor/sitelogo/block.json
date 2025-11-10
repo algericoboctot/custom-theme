@@ -1,0 +1,27 @@
+{
+    "name": "sitelogo",
+    "title": "Theme logo",
+    "description": "Block to display Site logo",
+    "category": "site-builder",
+    "icon": "format-image",
+    "keywords": ["custom", "sitelogo"],
+    "supports": {
+        "align": ["wide", "full"],
+        "anchor": true,
+        "customClassName": true,
+        "jsx": true
+    },
+    "mode": "preview",
+    "render_template": "template.php",
+    "enqueue_style": "style.css",
+    "context": ["site_editor"],
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "title": "Site logo Preview",
+                "subtitle": "Default Design for Site logo"
+            }
+        }
+    }
+}

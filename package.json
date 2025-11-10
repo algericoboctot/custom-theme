@@ -1,0 +1,13 @@
+{
+  "name": "ctheme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  },
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./assets/css/global/input.css -o ./assets/css/global/output.css --minify --watch"
+  }
+}

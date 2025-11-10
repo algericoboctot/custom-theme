@@ -1,0 +1,163 @@
+.header-ins-detailed {
+    .wp-block-site-logo.is-default-size img {
+        width: 220px;
+    }
+}
+
+.main-menu.mainmenu {
+    margin-block-start: 0;
+}
+.main-header__nav {
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+}
+
+.header-menu {
+    & > ul {
+        column-gap: 20px;
+        & > li {
+            & > .menu-item {
+                a {
+                    transition: color .25s ease-in;
+                    font-size: 1.125rem;
+                    &:hover {
+                        color: var(--wp--preset--color--accent-1);
+                    }
+                }
+            }
+        }
+        li.menu-item-has-children {
+            position: relative;
+            .menu-item {
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding-right: 25px;
+                height: 100%;
+                a {
+                    position: relative;
+                    z-index: 0;
+                }
+                .menu-arrow {
+                    background-repeat: no-repeat;
+                    background-size: 14px 16px;
+                    background-position: right center;
+                    transition: transform .25s ease-in;
+                    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+                    margin-left: auto;
+                    transition: background-image .25s ease-in;
+                    position: absolute;
+                    right: 0;
+                    width: 14px;
+                    height: 16px;
+                    z-index: 1;
+                }
+            }
+            &:hover {
+                .sub-menu {
+                    display: grid;
+                }
+            }
+            .sub-menu {
+                position: absolute;
+                left: 0;
+                top: 100%;
+                background-color: var(--wp--preset--color--accent-1);
+                padding: 15px;
+                flex-direction: column;
+                row-gap: 10px;
+                box-shadow: 0px 10px 16px 0px rgba(255,255,255,0.08);
+                min-width: 200px;
+                & > li  {
+                    .menu-item {
+                        a {
+                            transition: color .25s ease-in;
+                            &:hover {
+                                color: var(--wp--preset--color--base);
+                            }
+                        }
+                    }
+                }
+                & > li.menu-item-has-children {
+                    & > .sub-menu {
+                        left: calc(100% + 15px);
+                        top: 0;
+                    }
+                }
+            }
+        }
+        & > li.menu-item-has-children {
+            & > .menu-item {
+                .menu-arrow {
+                    transition: transform .25s ease-in;
+                    background-image: url('../../../assets/images/menu-arrow.svg');
+                    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+                }
+            }
+            &:hover {
+                & > .menu-item {
+                    .menu-arrow {
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.header-menu__list {
+    ul {
+        display: none;
+    }
+    &.current-menu-item {
+        & > .menu-item {
+            & > a {
+                color: var(--wp--preset--color--accent-1);
+            }
+        }
+    }
+    li {
+        .menu-item {
+            a {
+                color: var(--wp--preset--color--accent-2);
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px ) {
+    .main-menu.mainmenu {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media (min-width: 1024px ) {
+    .main-menu.mainmenu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .header-menu {
+        & > ul {
+            column-gap: 15px;
+        }
+    }
+}
+
+@media (min-width: 1280px ) {
+    .header-menu {
+        & > ul {
+            column-gap: 20px;
+        }
+    }
+}
+
+

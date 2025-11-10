@@ -1,0 +1,38 @@
+.wishlist-button-block {
+    display: flex;
+}
+
+.wishlist-header-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--wp--preset--color--accent-2);
+    transition: all 0.2s ease;
+    font-size: 14px;
+    position: relative;
+}
+
+.wishlist-header-btn:hover {
+    color: var(--wp--preset--color--accent-1);
+}
+
+.wishlist-header-btn svg {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.wishlist-count {
+    background: var(--wp--preset--color--accent-1);
+    color: var(--wp--preset--color--accent-2);
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    min-width: 18px;
+    text-align: center;
+    line-height: 1.2;
+    position: absolute;
+    right: -8px;
+    top: -5px;
+}

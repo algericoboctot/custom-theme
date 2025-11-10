@@ -1,0 +1,27 @@
+{
+    "name": "footermenu",
+    "title": "Footer Menu",
+    "description": "Block to Display Footer Menu",
+    "category": "site-builder",
+    "icon": "menu",
+    "keywords": ["custom", "menu"],
+    "supports": {
+        "align": ["wide", "full"],
+        "anchor": true,
+        "customClassName": true,
+        "jsx": true
+    },
+    "mode": "preview",
+    "render_template": "template.php",
+    "enqueue_style": "style.css",
+    "context": ["site_editor"],
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "title": "Footer Menu Preview",
+                "subtitle": "Default Design for Footer Menu"
+            }
+        }
+    }
+}

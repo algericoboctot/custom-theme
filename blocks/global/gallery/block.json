@@ -1,0 +1,51 @@
+{
+    "name": "gallery",
+    "title": "Navus Gallery",
+    "description": "Block to display Navus Gallery",
+    "category": "global-blocks",
+    "icon": "format-gallery",
+    "keywords": ["logos", "listing"],
+    "supports": {
+        "align": ["wide", "full"],
+        "anchor": true,
+        "customClassName": true,
+        "jsx": true
+    },
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "template.php"
+    },
+    "external_assets": {
+        "css": {
+            "photoswipe-css": {
+                "src": "{ASSETS_URI}/css/plugins/photoswipe/photoswipe.css",
+                "deps": [],
+                "version": "4.1.3"
+            }
+        },
+        "js": {
+            "photoswipe-js": {
+                "src": "{ASSETS_URI}/js/plugins/photoswipe/photoswipe.js",
+                "deps": [],
+                "version": "4.1.3"
+            },
+            "photoswipeui-js": {
+                "src": "{ASSETS_URI}/js/plugins/photoswipe/photoswipeui.js",
+                "deps": [],
+                "version": "4.1.3"
+            }
+        }
+    },
+    "enqueue_script": "script.js",
+    "enqueue_style": "style.css",
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "title": "Gallery Preview", 
+                "subtitle": "Default Design for Gallery",
+                "preview_image": "preview.jpg"
+            }
+        }
+    }
+}
